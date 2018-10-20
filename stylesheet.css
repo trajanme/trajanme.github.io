@@ -1,3 +1,66 @@
 body {
   font-family: "Avenir Next";
+  margin: 0;
+  padding: 0;
+}
+
+header, footer, h1, h2, h3, h4, p, ul, li {
+  margin: 0;
+}
+
+header {
+  background-color: #99CCFF;
+  height: 69px;
+}
+
+.header-logo {
+  font-size: 36px;
+  color: #003399;
+  padding: 10px 20px;
+  float: left;
+}
+
+.header-list {
+  float: left
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  font-size: 20px;
+  padding: 21px 20px;
+}
+
+.profile {
+
+}
+
+.profile-item {
+  height: 45px;
+  width: 100%;
+}
+
+.profile-item-key {
+  padding: 10px 10px;
+  width: 70px;
+  font-size: 18px;
+  float: left;
+}
+
+.profile-item-value {
+  padding: 10px 10px;
+  width: 400px;
+  float: left;
+}
+
+footer {
+  background-color: #000033;
+  color: #D7EEFF;
+  text-align: center;
+  height: 30px;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  padding: 4px 0px;
 }
