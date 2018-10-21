@@ -8,6 +8,10 @@ header, footer, h1, h2, h3, h4, p, ul, li {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 header {
   background-color: #99CCFF;
   height: 69px;
@@ -15,42 +19,92 @@ header {
 
 .header-logo {
   font-size: 36px;
+  font-weight: bold;
   color: #003399;
   padding: 10px 20px;
   float: left;
 }
 
 .header-list {
-  float: left
+  float: right;
 }
 
 .header-list li {
   list-style: none;
   float: left;
   font-size: 20px;
+  font-weight: bold;
   padding: 21px 20px;
+  transition: all 0.5s;
+}
+
+.header-list li:hover {
+  background-color: #6495ED;
+}
+
+.main {
+  width: 100%;
+  background-color: #F0F8FF;
+}
+
+.page-logo {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.section-logo {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.article-logo {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 0;
 }
 
 .profile {
-
+  margin: 0 auto;
+  width: 510px;
 }
 
 .profile-item {
-  height: 45px;
-  width: 100%;
+  height: 47px;
 }
 
 .profile-item-key {
-  padding: 10px 10px;
+  padding: 11px 10px;
   width: 70px;
   font-size: 18px;
+  font-weight: bold;
   float: left;
 }
 
 .profile-item-value {
   padding: 10px 10px;
   width: 400px;
+  font-size: 18px;
   float: left;
+}
+
+.profile-log-logo {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-log {
+  width: 100%;
+}
+
+.profile-log p {
+  margin: 0 auto;
+  width: 65%;
 }
 
 footer {
